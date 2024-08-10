@@ -1,0 +1,59 @@
+/*
+.timezone-display {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: 1px solid #dc3545;
+  background-color: #dc3545;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c82333;
+}
+
+*/
+
+.timezone-display {
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  max-width: 100%;
+  color: #333; /* Text color for light mode */
+  text-align: center;
+}
+
+button {
+  padding: 5px 10px;
+  border: 1px solid #dc3545;
+  background-color: #dc3545;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c82333;
+}
+
+/* Dark Mode Styles */
+.dark-mode .timezone-display {
+  background-color: #444;
+  border: 1px solid #555;
+  color: #fff; /* Text color for dark mode */
+}
